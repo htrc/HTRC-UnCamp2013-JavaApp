@@ -2,7 +2,7 @@
 
 set OAUTH2_CLIENT_ID=YOUR_CLIENT_ID
 set OAUTH2_CLIENT_SECRET=YOUR_CLIENT_SECRET
-set SOLR_QUERY_STRING=title:war AND author:Bill
+set SOLR_QUERY_STRING=publishDate:1884 AND author:Dickens
 set OUTPUT_FILE=volume.zip
 
 java -classpath build/jar/htrc-uncamp-client-1.0.jar htrc.uncamp.UnCampVolumeDemo "%OAUTH2_CLIENT_ID%" "%OAUTH2_CLIENT_SECRET%" "%SOLR_QUERY_STRING%" "%OUTPUT_FILE%" 
