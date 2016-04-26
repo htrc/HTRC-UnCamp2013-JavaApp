@@ -38,9 +38,9 @@ import javax.xml.stream.XMLStreamReader;
 public class UnCampTokenCountDemo {	
 	
 	// service end points 
-	private static final String DATA_API_ENDPOINT = "https://sandbox.htrc.illinois.edu:25443/data-api";
-	private static final String SOLR_PROXY_URL = "http://sandbox.htrc.illinois.edu:9994/solr/meta/select?q=";
-	private static final String OAUTH2_ENDPOINT = "https://sandbox.htrc.illinois.edu:9443/oauth2endpoints/token?grant_type=client_credentials";
+	private static final String DATA_API_ENDPOINT = "https://silvermaple.pti.indiana.edu:25443/data-api";
+	private static final String SOLR_PROXY_URL = "http://chinkapin.pti.indiana.edu:9994/solr/meta/select?q=";
+	private static final String OAUTH2_ENDPOINT = "https://silvermaple.pti.indiana.edu/oauth2/token?grant_type=client_credentials";
 	
 	// data api request url
 	private static final String TOKENCOUNT_URL = "/tokencount";	
